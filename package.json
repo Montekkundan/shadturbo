@@ -8,6 +8,8 @@
     "fix": "npx ultracite@latest fix",
     "analyze": "turbo analyze",
     "boundaries": "turbo boundaries",
+    "bump-deps": "npx npm-check-updates --deep -u -x react-day-picker,recharts",
+    "bump-ui": "npx shadcn@latest add --all --overwrite -c packages/design-system",
     "check-types": "turbo run check-types",
     "clean": "git clean -xdf node_modules"
   },
